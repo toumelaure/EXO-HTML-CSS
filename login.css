@@ -1,0 +1,29 @@
+body{
+    font-variant: small-caps;
+}
+.container{
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: blue;
+    margin: 0 auto;
+    justify-content: center;
+
+
+}
+.flex-tems{
+    width:3oopx;
+    font-weight: 300px;
+    background-color: aliceblue;
+    max-width: max-content;
+    justify-content: center;
+    margin: 0 auto;
+}
+.flex-tems2{
+    width: 300px;
+    font-variant: normal;
+    background: fixed;
+    border-color: brown;
+
+}
