@@ -1,29 +1,31 @@
 body{
-    font-variant: small-caps;
+    background-color: white;
 }
-.container{
+.content{
     display: flex;
+    flex-direction: row;
     padding: 1%;
     flex-wrap: wrap;
     gap: 10px;
-    background-color: blue;
     margin: 0 auto;
     justify-content: center;
 
 
 }
-.flex-tems{
+.flex-items{
     width:3oopx;
     font-weight: 300px;
     background-color: aliceblue;
-    max-width: max-content;
-    justify-content: center;
     margin: 0 auto;
 }
-.flex-tems2{
+h1 {
+    color: blue;
+}
+.flex-items2{
+    background-color: rgb(165, 32, 32);
     width: 300px;
-    font-variant: normal;
-    background: fixed;
-    border-color: brown;
+    height: 200px;
+    justify-content: center;
+    ma
 
 }
