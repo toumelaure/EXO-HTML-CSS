@@ -1,31 +1,50 @@
 body{
-    background-color: white;
+    background-color: whitesmoke;
 }
 .content{
+    width: 700PX;
     display: flex;
     flex-direction: row;
     padding: 1%;
-    flex-wrap: wrap;
-    gap: 10px;
     margin: 0 auto;
-    justify-content: center;
-
-
+    justify-content: space-around;
 }
 .flex-items{
-    width:3oopx;
+    width: 300px;
     font-weight: 300px;
-    background-color: aliceblue;
-    margin: 0 auto;
 }
 h1 {
     color: blue;
 }
 .flex-items2{
-    background-color: rgb(165, 32, 32);
-    width: 300px;
-    height: 200px;
-    justify-content: center;
-    ma
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+input {
+    height: 40px;
+    width: 450px;
+    margin: 10px;
 
+}
+a {
+    text-align: center;
+}
+hr{
+    border: 1 solid  black;
+    width: 450px;
+}
+.button1 {
+    height: 40px;
+    width: 450px;
+    background-color: blue;
+    height:40px;
+    text-align: center;
+}
+.button2 {
+    width: ;
 }
